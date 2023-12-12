@@ -3,6 +3,7 @@
   --color-text-dimmed: #666;
   --color-text-bright: #fff;
   --color-background: #000;
+  --color-cursur: rgb(206, 206, 15);
   --font-primary: "Roboto Condensed";
   --font-secondary: "Roboto";
   --font-size: 20px;
@@ -19,9 +20,9 @@
 }
 
 html {
-  cursor: none;
-  overflow: hidden;
-  background: var(--color-background);
+  cursor: grab;
+  overflow: auto;
+  background: var(--color-cursur);
   user-select: none;
   font-size: var(--font-size);
 }
