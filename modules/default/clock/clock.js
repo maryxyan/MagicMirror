@@ -25,7 +25,7 @@ Module.register("clock", {
 		sendNotifications: false,
 
 		/* specific to the analog clock */
-		analogSize: "200px",
+		analogSize: "666px",
 		analogFace: "simple", // options: 'none', 'simple', 'face-###' (where ### is 001 to 012 inclusive)
 		analogPlacement: "bottom", // options: 'top', 'bottom', 'left', 'right'
 		analogShowDate: "top", // OBSOLETE, can be replaced with analogPlacement and showTime, options: false, 'top', or 'bottom'

@@ -1,4 +1,4 @@
-/* MagicMirror²
+/* MagicMirrorEEEYSSY
  * Module: Compliments
  *
  * By Michael Teeuw https://michaelteeuw.nl
@@ -8,13 +8,13 @@ Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
 		compliments: {
-			anytime: ["Hey there sexy!","Hi, mister Mut!"],
+			anytime: ["Niața Iubire!","Hi, mister Mut!"],
 			morning: ["Good morning, handsome!", "Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
-			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!","Hi, mister Mut!"],
+			afternoon: ["Hello, You should See Yourself!", "ARĂȚI cumva azi!", "3.14, PI, !"],
+			evening: ["Mei ma și te culcă!", "Iți stă fața într-o parte!", "Salut, sexy!","Hi, mister Mut!"],
 			"....-01-01": ["Happy new year!"]
 		},
-		updateInterval: 30000,
+		updateInterval: 100,
 		remoteFile: null,
 		fadeSpeed: 4000,
 		morningStartTime: 3,
